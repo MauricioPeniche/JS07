@@ -1,42 +1,57 @@
-/* prueba push */
-
+/* Estilos para el título principal */
 h1 {
     text-align: center;
-}
-
-body {
-    align-items: center;
-    text-align: center;
+    /* Se agrega espacio alrededor del título */
+    margin: 20px 0;
+  }
+  
+  /* Estilos para todo el cuerpo del documento */
+  body {
+    /* Se centra verticalmente los elementos */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* Se ocupa toda la altura visible */
     height: 100vh;
     margin: 0;
+    /* Se cambia el color de fondo */
     background-color: cadetblue;
   }
-
+  
+  /* Estilos para el contenedor principal */
   .container {
+    /* Centra verticalmente los elementos */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-align: center;
+    /* Limita el ancho máximo */
     max-width: 800px; 
     padding: 20px;
   }
+  
+  /* Estilos para el contenedor del botón */
   .btn-container {
     text-align: center;
+    /* Se agrega espacio en la parte superior */
     margin-top: 20px;
   }
-
+  
+  /* Estilos para la tabla */
   #tabla-contenedor {
-    text-align: center;
-    border: 1px solid black;
+    /* Se agrega margen y padding para espaciado */
     margin: 20px;
     padding: 10px;
+    /* Se agregan bordes */
+    border: 1px solid black;
   }
   
+  /* Estilos para celdas de la tabla */
   #tabla-contenedor td, #tabla-contenedor th {
+    /* Alineación central del contenido */
     text-align: center;
     border: 1px solid black;
     padding: 8px;
-    text-align: left;
   }
-
+  

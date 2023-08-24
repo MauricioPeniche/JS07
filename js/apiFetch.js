@@ -66,17 +66,18 @@ function tableFiller(users) {
 }
 
 function userList() {
-  const storeD = localStorage.getItem('storageData');
+  document.getElementById("user-button").disabled = true;
+  const storeD = localStorage.getItem('storageData');1
   const date = localStorage.getItem('timeData');
   const today = new Date();
   const time = today.getTime();
   const dif = (time - date) / 1000 / 60;
 
   if (storeD === null) {
-    getJson(); // Cambié "getJason" a "getJson"
+    getJson(); 
   } else {
     if (dif > 1) {
-      getJson(); // Cambié "getJason" a "getJson"
+      getJson(); 
     } else {
       userCreation(JSON.parse(storeD));
     }
