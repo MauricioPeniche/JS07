@@ -1,3 +1,5 @@
+/* prueba push */
+
 h1 {
     text-align: center;
 }
@@ -12,10 +14,11 @@ body {
     margin: 0;
     background-color: cadetblue;
   }
+
   .container {
     align-items: center;
     text-align: center;
-    max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+    max-width: 800px; 
     padding: 20px;
   }
   .btn-container {
